@@ -13,7 +13,7 @@ from .daily_tracker import DailyRewardTracker
 from .public_client import TibberPublicAPI
 from .session_tracker import RewardSessionTracker
 
-PLATFORMS = ["sensor", "time", "binary_sensor"]
+PLATFORMS = ["sensor", "time", "binary_sensor", "switch"]
 
 _LOGGER = logging.getLogger(__name__)
 
